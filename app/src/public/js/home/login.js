@@ -10,6 +10,14 @@ const login = (e) => {
     userId: userId.value,
     userPw: userPw.value,
   };
+
+  fatch("/login", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(req),
+  });
 };
 
 userLoginBtn.addEventListener("click", login);
