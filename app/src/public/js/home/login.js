@@ -20,7 +20,7 @@ const login = (e) => {
   })
     .then((res) => res.json())
     .then(console.log)
-    .catch((error) => console.error("Error:", error));
+    .catch(console.error("로그인 중 에러 발생"));
 };
 
 userLoginBtn.addEventListener("click", login);
