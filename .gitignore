@@ -1,3 +1,6 @@
+.gitignore
+.prettierrc
+
 # Logs
 logs
 *.log
