@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>로그인</title>
-    <script src="/js/home/login.js"></script>
-  </head>
-  <body>
-    <div><a href="/">루트 화면으로 이동</a></div>
-    <div><input type="text" placeholder="아이디" /></div>
-    <div><input type="password" placeholder="비밀번호" /></div>
-    <div><button type="button">로그인</button></div>
-  </body>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>로그인</title>
+<script src="/js/home/login.js" defer></script>
+</head>
+<body>
+  <form id="userLogin" name="userLogin" action="" method="post">
+    <fieldset>
+      <legend>로그인</legend>
+      <div><a href="/">루트 화면으로 이동</a></div>
+      <div><input id="userId" name="userId" type="text" placeholder="아이디" /></div>
+      <div><input id="userPw" name="userPw" type="password" placeholder="비밀번호" /></div>
+      <div><button type="submit">로그인</button></div>
+    </fieldset>
+  </form>
+</body>
 </html>
