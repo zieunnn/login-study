@@ -25,7 +25,7 @@ const process = {
         return res.json({ success: true, msg: "로그인 성공" });
       }
     }
-    return res.status(401).json({ success: false, msg: "로그인 실패" });
+    return res.json({ success: false, msg: "로그인 실패" });
   },
 };
 
