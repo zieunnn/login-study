@@ -1,0 +1,25 @@
+*{box-sizing:border-box}
+textarea::placeholder,
+input::placeholder{color:rgba(0,0,0,.33)}
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0}
+article,aside,dialog,footer,header,section,footer,nav{display:block;margin:0;padding:0}/* html5 tags */
+body,input,textarea,select,button,table{font-family:sans-serif;font-size:16px;font-style:normal;font-weight:400}
+a{color:#4a4a4a;text-decoration:none}
+img{max-width:100%}
+img,fieldset,iframe{border:0 none}
+input,select,button{vertical-align:middle}
+ul,ol{list-style:none}
+i,em,address{font-style:normal}
+label,button{cursor:pointer;border:0;background:none}
+table{width:100%;border-collapse:collapse}
+.skip,
+hr,
+legend{position:absolute;left:-9999px;overflow:hidden;width:1px;height:1px;padding:0;margin-top:-1px;font-size:0;line-height:0}
+caption{overflow:hidden;width:1px;height:1px;height:0;padding:0;margin-top:-1px;font-size:0;line-height:0;text-indent:-9999em}
+[disabled],
+[disabled]+label{cursor:default}
+/* Fire Fox button style bug */
+button::-moz-focus-inner{padding:0;border:0}
+button{touch-action:pan-y}
+
+.blind{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0}
