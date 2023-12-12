@@ -1,4 +1,4 @@
-#user-login{min-height:100vh;padding:2rem 1rem;background:#bbb}
-#user-login fieldset{max-width:400px;margin:0 auto;padding:2rem;background:#fff}
-#user-login input{display:block;width:100%;margin:0 0 5px;padding:.5rem;border:1px solid #aaa}
-#user-login button{display:block;width:100%;text-align:center;line-height:46px;color:#fff;background:#4c4c4c}
+.register-form{min-height:100vh;padding:2rem 1rem;background:#bbb}
+.register-form fieldset{max-width:400px;margin:0 auto;padding:2rem;background:#fff}
+.register-form input{display:block;width:100%;margin:0 0 .75rem;padding:.5rem;background:#eee;border:0}
+.register-form button{display:block;width:100%;text-align:center;line-height:46px;color:#fff;background:#4c4c4c}
