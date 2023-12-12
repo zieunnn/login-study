@@ -18,9 +18,7 @@ const register = (e) => {
     userId: userId.value,
     userPw: userPw.value,
     userName: userName.value,
-    userPwConfirm: userPwConfirm.value,
   };
-  console.log(req);
 
   fetch("/register", {
     method: "POST",
@@ -32,7 +30,7 @@ const register = (e) => {
     .then((res) => res.json())
     .then((res) => {
       if (res.success) {
-        location.href = "/";
+        location.href = "/login";
       } else {
         alert(res.msg);
       }

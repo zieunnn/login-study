@@ -6,6 +6,8 @@ const userId = document.querySelector("#user-id"),
 
 const login = (e) => {
   e.preventDefault();
+  if (!userId.value) return alert("아이디를 입력하세요.");
+  if (!userPw.value) return alert("비밀번호를 입력하세요.");
   const req = {
     userId: userId.value,
     userPw: userPw.value,
@@ -26,7 +28,7 @@ const login = (e) => {
         alert(res.msg);
       }
     })
-    .catch(console.error("로그인 중 에러 발생"));
+    .catch((error) => console.error("로그인 중 에러 발생", error));
 };
 
 userLoginBtn.addEventListener("click", login);
