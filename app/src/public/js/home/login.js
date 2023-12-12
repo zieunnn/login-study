@@ -1,8 +1,8 @@
 "use strict";
 
-const userId = document.querySelector("#userId"),
-  userPw = document.querySelector("#userPw"),
-  userLoginBtn = document.querySelector("#userLogin button[type=submit]");
+const userId = document.querySelector("#user-id"),
+  userPw = document.querySelector("#user-pw"),
+  userLoginBtn = document.querySelector("#user-login-btn");
 
 const login = (e) => {
   e.preventDefault();
